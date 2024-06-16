@@ -1,0 +1,256 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'Test3hwjdNe.ui'
+##
+## Created by: Qt User Interface Compiler version 6.7.1
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QComboBox, QLabel, QLineEdit,
+    QMainWindow, QMenuBar, QPushButton, QSizePolicy,
+    QStatusBar, QWidget)
+import Truss2_rc
+import Truss2_rc
+import Truss2_rc
+
+class Ui_MainWindow3(object):
+    def setupUi(self, MainWindow3):
+        if not MainWindow3.objectName():
+            MainWindow3.setObjectName(u"MainWindow3")
+        MainWindow3.resize(911, 566)
+        self.centralwidget = QWidget(MainWindow3)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.fixedLoadInput = QLineEdit(self.centralwidget)
+        self.fixedLoadInput.setObjectName(u"fixedLoadInput")
+        self.fixedLoadInput.setGeometry(QRect(370, 300, 81, 21))
+        self.fixedLoadInput.setAlignment(Qt.AlignmentFlag.AlignRight|Qt.AlignmentFlag.AlignTrailing|Qt.AlignmentFlag.AlignVCenter)
+        self.label_13 = QLabel(self.centralwidget)
+        self.label_13.setObjectName(u"label_13")
+        self.label_13.setGeometry(QRect(300, 330, 61, 16))
+        self.label_4 = QLabel(self.centralwidget)
+        self.label_4.setObjectName(u"label_4")
+        self.label_4.setGeometry(QRect(300, 270, 61, 16))
+        self.label_12 = QLabel(self.centralwidget)
+        self.label_12.setObjectName(u"label_12")
+        self.label_12.setGeometry(QRect(300, 300, 61, 16))
+        self.memberSectionInput = QLineEdit(self.centralwidget)
+        self.memberSectionInput.setObjectName(u"memberSectionInput")
+        self.memberSectionInput.setGeometry(QRect(130, 360, 81, 21))
+        self.memberSectionInput.setAlignment(Qt.AlignmentFlag.AlignRight|Qt.AlignmentFlag.AlignTrailing|Qt.AlignmentFlag.AlignVCenter)
+        self.label_3 = QLabel(self.centralwidget)
+        self.label_3.setObjectName(u"label_3")
+        self.label_3.setGeometry(QRect(60, 330, 61, 16))
+        self.liveLoadInput = QLineEdit(self.centralwidget)
+        self.liveLoadInput.setObjectName(u"liveLoadInput")
+        self.liveLoadInput.setGeometry(QRect(370, 330, 81, 21))
+        self.liveLoadInput.setAlignment(Qt.AlignmentFlag.AlignRight|Qt.AlignmentFlag.AlignTrailing|Qt.AlignmentFlag.AlignVCenter)
+        self.label_21 = QLabel(self.centralwidget)
+        self.label_21.setObjectName(u"label_21")
+        self.label_21.setGeometry(QRect(-70, -250, 1011, 751))
+        self.label_21.setStyleSheet(u"background-color: white;\n"
+"")
+        self.label_15 = QLabel(self.centralwidget)
+        self.label_15.setObjectName(u"label_15")
+        self.label_15.setGeometry(QRect(220, 330, 31, 16))
+        self.supportPointsInput = QLineEdit(self.centralwidget)
+        self.supportPointsInput.setObjectName(u"supportPointsInput")
+        self.supportPointsInput.setGeometry(QRect(370, 270, 81, 21))
+        self.supportPointsInput.setAlignment(Qt.AlignmentFlag.AlignRight|Qt.AlignmentFlag.AlignTrailing|Qt.AlignmentFlag.AlignVCenter)
+        self.label_11 = QLabel(self.centralwidget)
+        self.label_11.setObjectName(u"label_11")
+        self.label_11.setGeometry(QRect(60, 270, 61, 16))
+        self.bridgeLengthInput = QLineEdit(self.centralwidget)
+        self.bridgeLengthInput.setObjectName(u"bridgeLengthInput")
+        self.bridgeLengthInput.setGeometry(QRect(130, 330, 81, 21))
+        self.bridgeLengthInput.setCursorPosition(0)
+        self.bridgeLengthInput.setAlignment(Qt.AlignmentFlag.AlignRight|Qt.AlignmentFlag.AlignTrailing|Qt.AlignmentFlag.AlignVCenter)
+        self.label_2 = QLabel(self.centralwidget)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(60, 300, 61, 16))
+        self.comboBox = QComboBox(self.centralwidget)
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.setObjectName(u"comboBox")
+        self.comboBox.setGeometry(QRect(130, 300, 51, 22))
+        self.materialTypeInput = QComboBox(self.centralwidget)
+        self.materialTypeInput.addItem("")
+        self.materialTypeInput.setObjectName(u"materialTypeInput")
+        self.materialTypeInput.setGeometry(QRect(130, 270, 51, 22))
+        self.label_5 = QLabel(self.centralwidget)
+        self.label_5.setObjectName(u"label_5")
+        self.label_5.setGeometry(QRect(60, 360, 61, 16))
+        self.label_19 = QLabel(self.centralwidget)
+        self.label_19.setObjectName(u"label_19")
+        self.label_19.setGeometry(QRect(460, 300, 31, 16))
+        self.label_14 = QLabel(self.centralwidget)
+        self.label_14.setObjectName(u"label_14")
+        self.label_14.setGeometry(QRect(220, 360, 31, 16))
+        self.label_26 = QLabel(self.centralwidget)
+        self.label_26.setObjectName(u"label_26")
+        self.label_26.setGeometry(QRect(710, -10, 91, 81))
+        self.label_26.setPixmap(QPixmap(u"../../../../Desktop/33_files/2018888-200.png"))
+        self.label_26.setScaledContents(True)
+        self.label_10 = QLabel(self.centralwidget)
+        self.label_10.setObjectName(u"label_10")
+        self.label_10.setGeometry(QRect(-20, 600, 1161, 16))
+        self.label_10.setStyleSheet(u"background-color: rgba(54,69,79,0.9);\n"
+"")
+        self.label_22 = QLabel(self.centralwidget)
+        self.label_22.setObjectName(u"label_22")
+        self.label_22.setGeometry(QRect(570, 160, 281, 221))
+        self.label_22.setStyleSheet(u"background-color: rgba(54,69,79,0.9);\n"
+"")
+        self.label_22.setPixmap(QPixmap(u":/newPrefix/DT3.jpg"))
+        self.label_22.setScaledContents(True)
+        self.label_16 = QLabel(self.centralwidget)
+        self.label_16.setObjectName(u"label_16")
+        self.label_16.setGeometry(QRect(0, 70, 911, 16))
+        self.label_16.setStyleSheet(u"background-color: rgba(54,69,79,0.6);\n"
+"")
+        self.label_7 = QLabel(self.centralwidget)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setGeometry(QRect(-130, -540, 1041, 621))
+        self.label_7.setStyleSheet(u"background-color: rgba(54,69,79,0.9);\n"
+"")
+        self.label_8 = QLabel(self.centralwidget)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(40, 20, 321, 41))
+        font = QFont()
+        font.setFamilies([u"\ub9d1\uc740 \uace0\ub515"])
+        font.setPointSize(15)
+        font.setBold(True)
+        font.setStrikeOut(False)
+        self.label_8.setFont(font)
+        self.label_8.setStyleSheet(u"color: white;")
+        self.label_23 = QLabel(self.centralwidget)
+        self.label_23.setObjectName(u"label_23")
+        self.label_23.setGeometry(QRect(50, 100, 591, 131))
+        self.label_23.setStyleSheet(u"color: rgba(54,69,79);")
+        self.label_23.setScaledContents(True)
+        self.label_20 = QLabel(self.centralwidget)
+        self.label_20.setObjectName(u"label_20")
+        self.label_20.setGeometry(QRect(460, 330, 31, 16))
+        self.label_17 = QLabel(self.centralwidget)
+        self.label_17.setObjectName(u"label_17")
+        self.label_17.setGeometry(QRect(460, 270, 41, 16))
+        self.label_17.setStyleSheet(u"")
+        self.pushButton = QPushButton(self.centralwidget)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(780, 410, 91, 31))
+        self.label_18 = QLabel(self.centralwidget)
+        self.label_18.setObjectName(u"label_18")
+        self.label_18.setGeometry(QRect(-20, 462, 931, 20))
+        self.label_18.setStyleSheet(u"background-color: rgba(54,69,79,0.6);\n"
+"")
+        self.label_9 = QLabel(self.centralwidget)
+        self.label_9.setObjectName(u"label_9")
+        self.label_9.setGeometry(QRect(0, 467, 911, 161))
+        self.label_9.setStyleSheet(u"background-color: rgba(54,69,79,0.9);\n"
+"")
+        MainWindow3.setCentralWidget(self.centralwidget)
+        self.label_21.raise_()
+        self.label_18.raise_()
+        self.label_7.raise_()
+        self.label_16.raise_()
+        self.label_8.raise_()
+        self.label_26.raise_()
+        self.label_10.raise_()
+        self.supportPointsInput.raise_()
+        self.bridgeLengthInput.raise_()
+        self.comboBox.raise_()
+        self.label_2.raise_()
+        self.label_19.raise_()
+        self.label_17.raise_()
+        self.label_12.raise_()
+        self.label_13.raise_()
+        self.label_14.raise_()
+        self.liveLoadInput.raise_()
+        self.label_11.raise_()
+        self.label_4.raise_()
+        self.label_15.raise_()
+        self.label_20.raise_()
+        self.fixedLoadInput.raise_()
+        self.label_5.raise_()
+        self.label_3.raise_()
+        self.memberSectionInput.raise_()
+        self.materialTypeInput.raise_()
+        self.label_22.raise_()
+        self.pushButton.raise_()
+        self.label_23.raise_()
+        self.label_9.raise_()
+        self.menubar = QMenuBar(MainWindow3)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 911, 33))
+        MainWindow3.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow3)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow3.setStatusBar(self.statusbar)
+        QWidget.setTabOrder(self.materialTypeInput, self.supportPointsInput)
+        QWidget.setTabOrder(self.supportPointsInput, self.comboBox)
+        QWidget.setTabOrder(self.comboBox, self.fixedLoadInput)
+        QWidget.setTabOrder(self.fixedLoadInput, self.bridgeLengthInput)
+        QWidget.setTabOrder(self.bridgeLengthInput, self.liveLoadInput)
+        QWidget.setTabOrder(self.liveLoadInput, self.memberSectionInput)
+        QWidget.setTabOrder(self.memberSectionInput, self.pushButton)
+
+        self.retranslateUi(MainWindow3)
+
+        QMetaObject.connectSlotsByName(MainWindow3)
+    # setupUi
+
+    def retranslateUi(self, MainWindow3):
+        MainWindow3.setWindowTitle(QCoreApplication.translate("MainWindow3", u"MainWindow", None))
+        self.fixedLoadInput.setText("")
+        self.label_13.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">\ud65c \ud558\uc911</span></p></body></html>", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">\uc808\uc810 \uac2f\uc218</span></p></body></html>", None))
+        self.label_12.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">\uace0\uc815 \ud558\uc911</span></p></body></html>", None))
+        self.memberSectionInput.setText("")
+        self.label_3.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">\uad50\ub7c9 \uae38\uc774</span></p></body></html>", None))
+        self.liveLoadInput.setText("")
+        self.label_21.setText("")
+        self.label_15.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">(m)</span></p></body></html>", None))
+        self.supportPointsInput.setText("")
+        self.label_11.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">\uc8fc\uc7ac\ub8cc</span></p></body></html>", None))
+        self.bridgeLengthInput.setText("")
+        self.label_2.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">\ube54 \ud615\ud0dc</span></p></body></html>", None))
+        self.comboBox.setItemText(0, QCoreApplication.translate("MainWindow3", u"H\ube54", None))
+        self.comboBox.setItemText(1, QCoreApplication.translate("MainWindow3", u"I\ube54", None))
+
+        self.materialTypeInput.setItemText(0, QCoreApplication.translate("MainWindow3", u"\ucca0\uac15", None))
+
+        self.label_5.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">\ubd80\uc7ac \ub2e8\uba74</span></p></body></html>", None))
+        self.label_19.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">(kN)</span></p></body></html>", None))
+        self.label_14.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">(m</span><span style=\" font-size:10pt; font-weight:700; color:#000000; vertical-align:super;\">2</span><span style=\" font-size:10pt; font-weight:700; color:#000000;\">)</span></p></body></html>", None))
+        self.label_26.setText("")
+        self.label_10.setText("")
+        self.label_22.setText("")
+        self.label_16.setText("")
+        self.label_7.setText("")
+        self.label_8.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:22pt; text-decoration: underline;\">The Truss BridgeForge</span></p></body></html>", None))
+        self.label_23.setText(QCoreApplication.translate("MainWindow3", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'\ub9d1\uc740 \uace0\ub515'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:14pt; font-weight:700;\">\uad50\ub7c9\uc124\uacc4 \uc785\ub825</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:11pt;\">\uad50\ub7c9 \uc124\uacc4\ub97c \uc9c4\ud589\ud558\uae30 \uc704\ud574 \uc544\ub798 \uc785\ub825\ub780\uc5d0 \uc815\ubcf4\ub97c"
+                        " \uc785\ub825\ud574\uc8fc\uc138\uc694.<br />\ubaa8\ub4e0 \ud544\uc218 \uc785\ub825\ub780\uc744 \uc791\uc131\ud55c \ud6c4 '\uc124\uacc4 \uc2dc\uc791' \ubc84\ud2bc\uc744 \ub20c\ub7ec\uc8fc\uc138\uc694.</span><span style=\" font-size:6pt;\"> </span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; color:#aa0000;\">*\uc785\ub825\uac12\uc744 \ub123\uc744 \ub54c \ubc18\ub4dc\uc2dc \uac01 \ud56d\ubaa9\uc758 \ub2e8\uc704\ub97c \ud655\uc778\ud558\uace0 \uc62c\ubc14\ub974\uac8c \uc785\ub825\ud574 \uc8fc\uc138\uc694.</span></p></body></html>", None))
+        self.label_20.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">(kN)</span></p></body></html>", None))
+        self.label_17.setText(QCoreApplication.translate("MainWindow3", u"<html><head/><body><p><span style=\" font-size:10pt; font-weight:700; color:#000000;\">(\uc815\uc218)</span></p></body></html>", None))
+        self.pushButton.setText(QCoreApplication.translate("MainWindow3", u"\uc124\uacc4 \uc2dc\uc791", None))
+        self.label_18.setText("")
+        self.label_9.setText("")
+    # retranslateUi
+
